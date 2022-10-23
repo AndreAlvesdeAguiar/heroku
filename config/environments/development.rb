@@ -10,7 +10,6 @@ Rails.application.configure do
   end
 
   config.cache_classes = false
-  ruby ENV['CUSTOM_RUBY_VERSION'] || '2.6.3'
 
   # Do not eager load code on boot.
   config.eager_load = false
