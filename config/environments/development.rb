@@ -61,7 +61,7 @@ Rails.application.configure do
   # Whitelist URLs for Ngrok
   Rails.application.configure do
     config.hosts.clear
-    config.hosts < < "rails-production-b979.up.railway.app"
+    config.hosts << "rails-production-b979.up.railway.app"
 
   end
   # Raises error for missing translations.
