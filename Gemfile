@@ -5,6 +5,8 @@ ruby '3.1.2'
 gem 'psych', '< 4'
 gem 'unicorn'
 
+gem 'tty-box'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3'
 # Use sqlite3 as the database for Active Record

@@ -58,12 +58,7 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
-  # Whitelist URLs for Ngrok
-  Rails.application.configure do
-    config.hosts.clear
-    config.hosts << "rails-production-b979.up.railway.app"
 
-  end
   # Raises error for missing translations.
   # config.action_view.raise_on_missing_translations = true
 
